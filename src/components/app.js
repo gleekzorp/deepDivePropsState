@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import JournalList from './journals/journal_list/journal_list';
+import JournalList from './journals/journal_list';
 
 export default class App extends Component {
   render() {
@@ -7,7 +7,6 @@ export default class App extends Component {
       <div className='app'>
         <h1>React, Props, and State Deep Dive</h1>
         <JournalList heading="List 1"/>
-        <JournalList heading="List 2"/>
       </div>
     );
   }
